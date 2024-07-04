@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+body{
+  margin: 0;
+  padding: 0;
+  margin:30px auto;
+  color: aliceblue;
+  background-color: #17212D;
+  font-family: "Concert One", sans-serif;
+  font-weight: 100;
+  font-size: 12px;
+  
+}
+
+.faq-container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h2{
+  text-align: center;
+}
+
+.faq{
+  width:90% ;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 1px 1px rgb(190, 188, 188);
+  border-radius: 4px;
+}
+
+.faq-head{
+  border: 1px solid aliceblue;
+  padding: 10px;
+  border-radius: 4px 4px 0px 0px;
+  cursor: pointer;
+  background-color: gray;
+  color:white;
+}
+
+.faq-head:hover{
+  background-color: rgb(100, 99, 99);
+}
+
+.faq-body{
+  border: 1px solid aliceblue;
+  border-radius: 0px 0px 4px 4px;
+  padding: 10px 10px;
+  display: none;
+}
+
+.ans-visible{
+  height: auto;
+  display: block;
+}
+
+img{
+  width: 100%;
+}
+
+@media (min-width: 600px) {
+  body{
+    font-size: 16px;
+  }
+  img{
+    width: 50%;
+    margin-left: 20px;
+  }
+}
+
+
+
